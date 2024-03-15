@@ -1,0 +1,30 @@
+# User Data Management Web Application
+
+This is a basic web application built with Python using the Flask framework for managing user data. The application allows users to input their name, email, age, and date of birth through a web form. The entered data is then validated and stored in a SQLite database. Users can also view the stored data in a tabular format.
+
+ Setup and Run Instructions
+
+ Prerequisites
+- Python 3.x installed on your system.
+- pip package manager.
+
+
+ Installation Steps
+1. Clone this repository to your local machine.
+   ```bash
+   git clone https://github.com/yourusername/user-data-management.git
+
+
+1.Navigate to the project directory.
+
+cd user-data-management
+2.Install Flask and other dependencies.
+pip install -r requirements.txt
+Running the Application
+1.Initialize the SQLite database.
+python app.py
+This will create the userdata.db file containing the database schema.
+
+Run the Flask application.
+python app.py
+Open your web browser and go to http://127.0.0.1:5000/ to access the application.
